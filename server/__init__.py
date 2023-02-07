@@ -11,5 +11,5 @@ app.config['MYSQL_DB'] = 'author_db'
 
 mysql = MySQL(app)
 
-import server.role_endpoints
-import server.user_endpoints
+import server.endpoint.user_endpoints
+import server.endpoint.role_endpoints

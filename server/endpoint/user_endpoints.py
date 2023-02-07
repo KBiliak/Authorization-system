@@ -1,6 +1,6 @@
 from server import app, mysql
 from flask import request
-import user_repository
+from server.db import user_repository
 
 
 @app.post("/user")

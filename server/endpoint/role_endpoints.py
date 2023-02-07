@@ -1,6 +1,6 @@
 from server import app, mysql
 from flask import request
-import role_repository
+from server.db import role_repository
 
 
 @app.post("/role")
